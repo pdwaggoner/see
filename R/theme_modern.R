@@ -81,7 +81,7 @@ theme_modern <- function(plot.title.size=15, plot.title.face="plain", plot.title
       axis.title.y = element_text(margin = margin(t = 0, r = axis.title.space, b = 0, l = 0)),
       axis.title.x = element_text(margin = margin(t = axis.title.space, r = 0, b = 0, l = 0)),
       axis.title = axis.title.size,
-      axis.text.x = element_text(angle = axis.text.angle, hjust=hjust),
+      axis.text.angle = element_text(angle = axis.text.angle, hjust=hjust),
       axis.text = axis.text.size,
       axis.ticks = element_blank(),
       plot.tag = element_text(size = tags.size, face = tags.face),
